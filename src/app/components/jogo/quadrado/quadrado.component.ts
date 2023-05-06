@@ -10,7 +10,7 @@ export class QuadradoComponent {
   @Input() index: number;
   @Output() clicou = new EventEmitter<number>();
 
-  onClick(){
-    this.clicou.emit(this.index)
+  onClick() {
+    this.clicou.emit(this.index);
   }
 }
