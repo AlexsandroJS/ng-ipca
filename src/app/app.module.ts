@@ -7,9 +7,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JogoComponent } from './components/jogo/jogo.component';
 import { ResultadoComponent } from './components/resultado/resultado.component';
+import { QuadradoComponent } from './components/jogo/quadrado/quadrado.component';
 
 @NgModule({
-  declarations: [AppComponent, JogoComponent, ResultadoComponent],
+  declarations: [AppComponent, JogoComponent, ResultadoComponent, QuadradoComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

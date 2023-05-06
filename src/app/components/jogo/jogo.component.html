@@ -1,3 +1,15 @@
-<p>jogo works!</p>
-
-<button (click)="irParaResultado()">Ir para resultado</button>
+<div>
+  <app-quadrado [index]="0" (clicou)="onSquareClick($event)"></app-quadrado>
+  <app-quadrado [index]="1" (clicou)="onSquareClick($event)"></app-quadrado>
+  <app-quadrado [index]="2" (clicou)="onSquareClick($event)"></app-quadrado>
+</div>
+<div>
+  <app-quadrado [index]="3" (clicou)="onSquareClick($event)"></app-quadrado>
+  <app-quadrado [index]="4" (clicou)="onSquareClick($event)"></app-quadrado>
+  <app-quadrado [index]="5" (clicou)="onSquareClick($event)"></app-quadrado>
+</div>
+<div>
+  <app-quadrado [index]="6" (clicou)="onSquareClick($event)"></app-quadrado>
+  <app-quadrado [index]="7" (clicou)="onSquareClick($event)"></app-quadrado>
+  <app-quadrado [index]="8" (clicou)="onSquareClick($event)"></app-quadrado>
+</div>
